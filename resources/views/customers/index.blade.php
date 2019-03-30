@@ -35,7 +35,7 @@
                            data-tooltip="Deletar" data-id="{{$product->id}}"
                            data-name="{{$product->name}}"><i
                                     class="small material-icons">delete</i></a></td>
-                    <td><a class="waves-effect waves-light btn" href="https://api.whatsapp.com/send?l=pt_BR&phone={{$product->phone}}">button</a></td>
+                    <td><a class="waves-effect waves-light btn" href="https://api.whatsapp.com/send?l=pt_BR&phone={{$product->phone}}">WhatsApp</a></td>
                 </tr>
             @empty
                 <tr>
